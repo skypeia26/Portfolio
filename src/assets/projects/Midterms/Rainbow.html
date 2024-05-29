@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rainbow</title>
+    <link rel="stylesheet" href="src/Rainbow.css">
+    
+    <style>
+        .anime{
+            display: flex;
+            height: 20rem;
+            gap: 1rem;
+        }
+
+        .anime > div{
+            flex: 1;
+            border-radius: 1rem;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: auto 100%;
+            transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+        }
+
+        .anime > div:hover{
+            flex: 5;
+        }
+    </style>
+
+</head>
+<body>
+    <div>
+        <div class="anime">
+            <div style="background-image: url('src/luffy.jpg');"></div>
+            <div style="background-image: url('src/Ichigo.jpg');"></div>
+            <div style="background-image: url('src/naruto.jpg');"></div>
+            <div style="background-image: url('src/goku1.jpg');"></div>
+            <div style="background-image: url('src/deku.jpg');"></div>
+        </div>
+    </div>
+</body>
+</html>

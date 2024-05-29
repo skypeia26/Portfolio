@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .footer {
+    display: block;
+    background: #661b1c;
+    color: white; 
+    height: 20px;
+    width: 105.7%;
+    margin-left: -100px;
+    font-family: "Open Sans", sans-serif; 
+    margin-top: 100px;
+} */
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 130px;
+    width: 100%;
+    background-color: #661b1c;
+    color: white;
+    text-align: center;
+  }
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10%;
+    padding: 20px 20px; /* Add padding for better spacing */
+}
+
+.footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    margin-bottom: 10px; /* Ensure spacing between elements */
+    color: white; /* Ensure consistent text color */
+}
+
+.footer-content p {
+    margin-top: 50vh;
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: white; /* Ensure consistent text color */
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white; /* Ensure consistent icon color */
+    transition: color 0.4s ease;
+    font-size: 1.5rem; /* Increase icon size for better visibility */
+}
+
+.socials a:hover {
+    color: aqua; /* Add hover effect for icons */
+}
+
+.footer-bottom {
+    background: #661b1c; /* Match with the header color */
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: 0.8;
+    font-weight: 200;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 800px) {
+    .footer-content {
+        padding: 20px 10px; /* Adjust padding for smaller screens */
+    }
+
+    .socials a {
+        font-size: 1.2rem; /* Adjust icon size for smaller screens */
+    }
+}

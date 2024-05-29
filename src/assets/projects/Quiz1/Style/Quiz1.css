@@ -1,0 +1,263 @@
+.body{
+    display: grid;
+    grid-template-rows: 550%;
+    height: 95vh;
+    background-color: aquamarine;
+}
+
+.sub-body {
+    display: grid;
+    grid-template-rows: 2% 94%;
+    row-gap: 1%;
+    margin: 2px;
+}
+
+.sub-body-row { 
+    background-color: black;
+}
+
+.grid-header{
+   display: grid;
+   grid-template-columns: 20% 40% 40% ; 
+}
+
+.grid-footer{
+    display: grid; 
+
+ }
+
+.grid-header-item{
+    background-color: orchid;
+    margin: 6px;
+}
+
+.header-left-parent{
+    display: grid;
+    grid-template-columns: 20% 30% 40%;
+    justify-content: center;
+}
+
+.header-left-child {
+    background-color: red;
+    margin: 4px;
+ 
+}
+
+.header-right-parent{
+    display: grid;
+    grid-template-columns: 10% 10% 10%;
+    justify-content: end;
+}
+
+.header-right-child {
+    background-color: red;
+    margin: 6px;
+    column-gap: 2px;
+}
+
+.header-middle-parent{
+    display: grid;
+    grid-template-columns: 89%;
+    justify-content: center;
+}
+
+.header-middle-child {
+    background-color: red;
+    margin: 6px;
+    column-gap: 2px;
+}
+
+.grid-header-item1{
+    margin: 3px;
+}
+
+.sub-body1 {
+    display: grid;
+    grid-template-rows: 1% 3% 30% 15% 20% 30%;
+    position: relative;
+    z-index: 0;
+    max-width: 60.25em;
+    min-width: 60.25em;
+    min-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    row-gap: .3%;
+    box-sizing: border-box;
+}
+
+.grid-sub-body-row1 { 
+    background-color: black;
+}
+
+.grid-header1{
+    display: grid;
+    grid-template-columns: 30% 70%; 
+ }
+ 
+ .header-left-parent1{
+     display: grid;
+     grid-template-columns: 30% 30%;
+ }
+ 
+ .header-left-child1 {
+     background-color: blueviolet;
+     margin: 2px;
+     column-gap: 2px;
+ }
+ 
+ .header-right-parent1{
+     display: grid;
+     grid-template-columns: 10% 10% 10% 10%;
+     justify-content: end;
+ }
+ 
+ .header-right-child1 {
+     background-color: blueviolet;
+     margin: 2px;
+     column-gap: 2px;
+ }
+
+ .grid_header {
+    display: grid;
+    grid-template-columns: 100%;  
+ }
+
+ .parent {
+    display: grid;
+    grid-template-columns: 100%;
+ }
+
+ .child {
+    background-color: royalblue;
+    margin: 5px;
+ }
+
+.grid-header1 {
+    display: grid;
+    grid-template-columns: 55% 45%; 
+ }
+
+ .header-left-parent2{
+    display: grid;
+    grid-template-rows:  4% 46% 4% 46%;
+}
+
+.header-left-childX {
+    background-color: lime;
+    margin: 5px;
+    column-gap: 2px;
+}
+
+.header-left-childY {
+    background-color: white;
+    margin: 5px;
+    column-gap: 2px;
+}
+
+.header-right-parent2{
+    display: grid;
+    grid-template-rows: 4% 46%  4% 46%;
+}
+
+.header-right-childX {
+    background-color: gray;
+    margin: 5px;
+    column-gap: 2px;
+}
+
+.header-right-childY {
+    background-color: lightsteelblue;
+    margin: 5px;
+    column-gap: 2px;
+}
+
+.grid-header2 {
+    display: grid;
+    grid-template-rows: 15% 85%; 
+ }
+
+ .header-top-parent {
+    margin: 7px;
+    display: grid;
+    background-color: lightpink;
+ }
+
+ .header-down-parent {
+    margin: 7px;
+    display: grid;
+    background-color: white;
+ }
+
+ .grid-header3 {
+    display: grid;
+    grid-template-rows: 10% 90%; 
+ }
+
+ .grid-header-upper-parent1 {
+    margin: 7px;
+    column-gap: 2px;
+    display: grid;
+    background-color: lightskyblue;
+ }
+
+ .grid-header-lower-parent1 {
+    margin: 7px;
+    display: grid;
+    background-color: white;
+ }
+
+ .grid-header4 {
+    display: grid;
+    grid-template-rows: 33.33% 33.33% 33.33%; 
+ }
+
+ .header-up-parent {
+    display: grid;
+    grid-template-rows: 15% 85%;
+ }
+
+ .header-center-parent {
+    display: grid;
+    grid-template-rows: 15% 85%;
+ }
+ 
+ .header-bottom-parent {
+    display: grid;
+    grid-template-rows: 15% 85%;
+ }
+
+ .header-up-child1 {
+    background-color: whitesmoke;
+    margin: 5px;
+    column-gap: 2px;
+ }
+
+ .header-up-child {
+    background-color: lightseagreen;
+    margin: 5px;
+    column-gap: 2px;
+ }
+
+ .header-center-child1 {
+    background-color: whitesmoke;
+    margin: 5px;
+    column-gap: 2px;
+ }
+
+ .header-center-child {
+    background-color: lightgreen;
+    margin: 5px;
+    column-gap: 2px;
+ }
+
+ .header-bottom-child1 {
+    background-color: whitesmoke;
+    margin: 5px;
+    column-gap: 2px;
+ }
+
+ .header-bottom-child {
+    background-color: lightsalmon;
+    margin: 5px;
+    column-gap: 2px;
+ }

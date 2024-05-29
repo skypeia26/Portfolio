@@ -1,0 +1,23 @@
+body{
+    background-image: url("../../src/image/fourseasons.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#message{
+    text-align: center;
+    font-size: 60px;
+    margin: 10% 25%;
+    border: 5px double;
+    border-radius: 25px;
+    padding: 2%;
+}
+
+#input-text{
+    font-size: 20px;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+
+#btn-theme{
+    font-size: 20px;
+}

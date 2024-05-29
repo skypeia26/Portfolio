@@ -1,0 +1,24 @@
+.h2-initial{
+    color: rgb(175, 45, 45);
+    margin-top: 10%;
+    margin-left: 80%;
+    font-size: 100px;
+}
+.h2-finals{
+    color: rgb(89, 0, 255);
+    margin-top: -15%;
+    margin-left: 5%;
+    font-size: 100px;
+}
+.body-initial{
+    background-color: gainsboro;
+}
+.body-finals{
+    background-color: cadetblue;
+}
+
+button{
+    margin-left: 35%;
+    margin-top: 20%;
+    width: 30%;
+}
